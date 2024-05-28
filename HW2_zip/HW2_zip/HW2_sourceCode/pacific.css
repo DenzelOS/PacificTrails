@@ -1,0 +1,105 @@
+header, hgroup, nav, footer, figure, figcaption, aside, section, article {
+    display: block;
+}
+body {
+    background: url('ptrbackground.jpg');
+    color: #666666;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+#wrapper {
+    width: 80%;
+    min-width: 600px;
+    margin: 20px auto;
+    background-color: white;
+	overflow: hidden;
+	box-sizing: border-box;
+}
+
+header {
+    background: url('sunset.jpg') no-repeat center center;
+    background-size: cover;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    font-family: Georgia, "Times New Roman", serif;
+	
+}
+nav {
+    width: 200px;
+    background-color: #b3d9ff;
+    float: left;
+    height: 600px;
+    padding: 20px;
+	box-sizing: border-box;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 1.2em;
+}
+nav a {
+    color: #000033; /* Set the desired color */
+    text-decoration: none; /* Remove the underline */
+    font-weight: bold; /* Make the text bold */
+	
+}
+
+nav a:hover {
+    color: #FFFFFF;
+}
+
+#content {
+    margin-left: 240px;
+    padding: 20px;
+}
+#content img {
+    width: 50%;
+    float: left;
+    margin-right: 20px;
+}
+
+#content ul {
+    list-style: url('marker.gif');
+    padding: 0;
+    margin-left: 20px;
+}
+
+
+
+h1 {
+    margin-bottom: 0;
+    padding: 10px;
+	font-weight: bold;
+}
+h2 {
+    color: #3399CC;
+}
+h1,
+h2 {
+    font-family: Georgia, "Times New Roman", serif;
+}
+
+dt {
+    color: #000033;
+}
+footer {
+    font-family: Georgia, "Times New Roman", serif;
+
+    font-style: italic;
+    font-weight: bold;
+	margin-left: 250px;
+}
+
+footer a {
+    color: #344873;
+    text-decoration: underline;
+}
+
+.resort {
+    font-weight: bold;
+    color: #336699; /* Desired color for "Pacific Trails Resort" */
+}
